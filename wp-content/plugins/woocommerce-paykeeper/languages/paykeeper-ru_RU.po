@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PayKeeper Payment Plugin\n"
+"POT-Creation-Date: 2015-09-16 11:22+0300\n"
+"PO-Revision-Date: 2015-09-17 18:22+0300\n"
+"Last-Translator: \n"
+"Language-Team: Aleksandr Datsko <info@asdat.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: PayKeeper\n"
+"X-Poedit-SearchPath-0: paykeeper-ru_RU.txt\n"
+
+#: ../paykeeper-gateway-class.php:43
+msgid "PayKeeper"
+msgstr "PayKeeper"
+
+#: ../paykeeper-gateway-class.php:44
+msgid "Allows Payments via the PayKeeper gateway."
+msgstr "Приём платежей обеспечивается платёжной платформой PayKeeper."
+
+#: ../paykeeper-gateway-class.php:61
+msgid "Enable PayKeeper Gateway"
+msgstr "Включить PayKeeper"
+
+#: ../paykeeper-gateway-class.php:65
+msgid "PayKeeper server URL"
+msgstr "Платежная форма PayKeeper"
+
+#: ../paykeeper-gateway-class.php:67
+msgid "Your PayKeeper server URL."
+msgstr "Ссылка на платежную форму PayKeeper."
+
+#: ../paykeeper-gateway-class.php:71
+msgid "PayKeeper secret word"
+msgstr "Секретное слово"
+
+#: ../paykeeper-gateway-class.php:73
+msgid "Your PayKeeper secret word."
+msgstr "Ваше секретное слово на странице настроек уведомления о платежах."
+
+#: ../paykeeper-gateway-class.php:80
+msgid "PayKeeper Payment"
+msgstr "Оплата картами Visa/MasterCard онлайн"
+
+#: ../paykeeper-gateway-class.php:86
+msgid "Payments via the PayKeeper gateway"
+msgstr "Приём платежей обеспечивает платёжная платформа PayKeeper"
+
+#: ../paykeeper-gateway-class.php:88
+msgid "Do not check VAT system settings"
+msgstr "Не учитывать системные настройки налогов"
+
+#: ../paykeeper-gateway-class.php:90
+msgid "If enabled, system vat settings will not be checked in PayKeeper payment method"
+msgstr "Если отмечено, то в методе оплаты PayKeeper не будут учитываться системные настройки налогов при инициализации оплаты"
+
+#: ../paykeeper-gateway-class.php:95
+msgid "Notify link"
+msgstr "Адрес уведомления"
+
+#: ../paykeeper-gateway-class.php:98
+msgid "Copy and paste this link to your config at PayKeeper account as notify link for server-server notification."
+msgstr "Скопируйте и вставьте эту ссылку в личном кабинете PayKeeper на странице уведомления о платежах, она нужна для уведомления сайта сервисом об успешном платеже."
+
+#: ../paykeeper-gateway-class.php:102
+msgid "Success link"
+msgstr "Успешный переход"
+
+#: ../paykeeper-gateway-class.php:105
+msgid "Copy and paste this link to your config at PayKeeper account as success payment redirect."
+msgstr "Скопируйте и вставьте эту ссылку в личном кабинете PayKeeper на странице адресов перенаправления. Это ссылка для перехода при успешном платеже."
+
+#: ../paykeeper-gateway-class.php:109
+msgid "Failed link"
+msgstr "Переход при ошибке"
+
+#: ../paykeeper-gateway-class.php:112
+msgid "Copy and paste this link to your config at PayKeeper account as failed payment redirect."
+msgstr "Скопируйте и вставьте эту ссылку в личном кабинете PayKeeper на странице адресов перенаправления. Это ссылка для перехода в случае, когда произошла ошибка при проведении платежа."
+
+#: ../paykeeper-gateway-class.php:182
+msgid "PayKeeper Response Failure"
+msgstr "Ошибка увдомления сервисом PayKeeper"

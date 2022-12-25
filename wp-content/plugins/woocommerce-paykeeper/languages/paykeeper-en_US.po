@@ -1,0 +1,88 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PayKeeper Payment Plugin\n"
+"POT-Creation-Date: 2015-09-16 10:46+0300\n"
+"PO-Revision-Date: 2020-10-26 21:34+0300\n"
+"Last-Translator: \n"
+"Language-Team: Aleksandr Datsko <info@asdat.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: paykeeper-en_US.txt\n"
+
+#: ../paykeeper-gateway-class.php:43
+msgid "PayKeeper"
+msgstr "PayKeeper"
+
+#: ../paykeeper-gateway-class.php:44
+msgid "Allows Payments via the PayKeeper gateway."
+msgstr "Allows Payments via the PayKeeper gateway."
+
+#: ../paykeeper-gateway-class.php:61
+msgid "Enable PayKeeper Gateway"
+msgstr "Enable PayKeeper Gateway"
+
+#: ../paykeeper-gateway-class.php:65
+msgid "PayKeeper server URL"
+msgstr "PayKeeper server URL"
+
+#: ../paykeeper-gateway-class.php:67
+msgid "Your PayKeeper server URL."
+msgstr "Your PayKeeper server URL."
+
+#: ../paykeeper-gateway-class.php:71
+msgid "PayKeeper secret word"
+msgstr "PayKeeper secret word"
+
+#: ../paykeeper-gateway-class.php:73
+msgid "Your PayKeeper secret word."
+msgstr "Your PayKeeper secret word."
+
+#: ../paykeeper-gateway-class.php:80
+msgid "PayKeeper Payment"
+msgstr "PayKeeper Payment"
+
+#: ../paykeeper-gateway-class.php:86
+msgid "Payments via the PayKeeper gateway"
+msgstr "Payments via the PayKeeper gateway"
+
+#: ../paykeeper-gateway-class.php:88
+msgid "Do not check VAT system settings"
+msgstr "Do not check VAT system settings"
+
+#: ../paykeeper-gateway-class.php:90
+msgid "If enabled, system vat settings will not be checked in PayKeeper payment method"
+msgstr "If enabled, system vat settings will not be checked in PayKeeper payment method"
+
+#: ../paykeeper-gateway-class.php:95
+msgid "Notify link"
+msgstr "Notify link"
+
+#: ../paykeeper-gateway-class.php:98
+msgid "Copy and paste this link to your config at PayKeeper account as notify link for server-server notification."
+msgstr "Copy and paste this link to your config at PayKeeper account as notify link for server-server notification."
+
+#: ../paykeeper-gateway-class.php:102
+msgid "Success link"
+msgstr "Success link"
+
+#: ../paykeeper-gateway-class.php:105
+msgid "Copy and paste this link to your config at PayKeeper account as success payment redirect."
+msgstr "Copy and paste this link to your config at PayKeeper account as success payment redirect."
+
+#: ../paykeeper-gateway-class.php:109
+msgid "Failed link"
+msgstr "Failed link"
+
+#: ../paykeeper-gateway-class.php:112
+msgid "Copy and paste this link to your config at PayKeeper account as failed payment redirect."
+msgstr "Copy and paste this link to your config at PayKeeper account as failed payment redirect."
+
+#: ../paykeeper-gateway-class.php:182
+msgid "PayKeeper Response Failure"
+msgstr "PayKeeper Response Failure"

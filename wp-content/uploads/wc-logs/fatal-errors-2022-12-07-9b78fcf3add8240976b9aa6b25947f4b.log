@@ -1,0 +1,57 @@
+2022-12-07T19:13:42+00:00 CRITICAL Uncaught Error: Class "wpb_widget" not found in D:\OpenServer\domains\gold\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 D:\OpenServer\domains\gold\wp-includes\widgets.php(115): WP_Widget_Factory->register()
+#1 D:\OpenServer\domains\gold\wp-content\themes\salyut\functions.php(1112): register_widget()
+#2 D:\OpenServer\domains\gold\wp-includes\class-wp-hook.php(308): wpb_load_widget()
+#3 D:\OpenServer\domains\gold\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#4 D:\OpenServer\domains\gold\wp-includes\plugin.php(517): WP_Hook->do_action()
+#5 D:\OpenServer\domains\gold\wp-includes\widgets.php(1854): do_action()
+#6 D:\OpenServer\domains\gold\wp-includes\class-wp-hook.php(308): wp_widgets_init()
+#7 D:\OpenServer\domains\gold\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#8 D:\OpenServer\domains\gold\wp-includes\plugin.php(517): WP_Hook->do_action()
+#9 D:\OpenServer\domains\gold\wp-settings.php(617): do_action()
+#10 D:\OpenServer\domains\gold\wp-config.php(95): require_once('D:\\OpenServer\\d...')
+#11 D:\OpenServer\domains\gold\wp-load.php(50): require_once('D:\\OpenServer\\d...')
+#12 D:\OpenServer\domains\gold\wp-blog-header.php(13): require_once('D:\\OpenServer\\d...')
+#13 D:\OpenServer\domains\gold\index.php(17): require('D:\\OpenServer\\d...')
+#14 {main}
+  thrown в D:\OpenServer\domains\gold\wp-includes\class-wp-widget-factory.php на строке 62
+
+2022-12-07T19:14:01+00:00 CRITICAL Uncaught Error: Class "wpb_widget" not found in D:\OpenServer\domains\gold\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 D:\OpenServer\domains\gold\wp-includes\widgets.php(115): WP_Widget_Factory->register()
+#1 D:\OpenServer\domains\gold\wp-content\themes\salyut\functions.php(1112): register_widget()
+#2 D:\OpenServer\domains\gold\wp-includes\class-wp-hook.php(308): wpb_load_widget()
+#3 D:\OpenServer\domains\gold\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#4 D:\OpenServer\domains\gold\wp-includes\plugin.php(517): WP_Hook->do_action()
+#5 D:\OpenServer\domains\gold\wp-includes\widgets.php(1854): do_action()
+#6 D:\OpenServer\domains\gold\wp-includes\class-wp-hook.php(308): wp_widgets_init()
+#7 D:\OpenServer\domains\gold\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#8 D:\OpenServer\domains\gold\wp-includes\plugin.php(517): WP_Hook->do_action()
+#9 D:\OpenServer\domains\gold\wp-settings.php(617): do_action()
+#10 D:\OpenServer\domains\gold\wp-config.php(95): require_once('D:\\OpenServer\\d...')
+#11 D:\OpenServer\domains\gold\wp-load.php(50): require_once('D:\\OpenServer\\d...')
+#12 D:\OpenServer\domains\gold\wp-blog-header.php(13): require_once('D:\\OpenServer\\d...')
+#13 D:\OpenServer\domains\gold\index.php(17): require('D:\\OpenServer\\d...')
+#14 {main}
+  thrown в D:\OpenServer\domains\gold\wp-includes\class-wp-widget-factory.php на строке 62
+
+2022-12-07T19:14:02+00:00 CRITICAL Uncaught Error: Class "wpb_widget" not found in D:\OpenServer\domains\gold\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 D:\OpenServer\domains\gold\wp-includes\widgets.php(115): WP_Widget_Factory->register()
+#1 D:\OpenServer\domains\gold\wp-content\themes\salyut\functions.php(1112): register_widget()
+#2 D:\OpenServer\domains\gold\wp-includes\class-wp-hook.php(308): wpb_load_widget()
+#3 D:\OpenServer\domains\gold\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#4 D:\OpenServer\domains\gold\wp-includes\plugin.php(517): WP_Hook->do_action()
+#5 D:\OpenServer\domains\gold\wp-includes\widgets.php(1854): do_action()
+#6 D:\OpenServer\domains\gold\wp-includes\class-wp-hook.php(308): wp_widgets_init()
+#7 D:\OpenServer\domains\gold\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#8 D:\OpenServer\domains\gold\wp-includes\plugin.php(517): WP_Hook->do_action()
+#9 D:\OpenServer\domains\gold\wp-settings.php(617): do_action()
+#10 D:\OpenServer\domains\gold\wp-config.php(95): require_once('D:\\OpenServer\\d...')
+#11 D:\OpenServer\domains\gold\wp-load.php(50): require_once('D:\\OpenServer\\d...')
+#12 D:\OpenServer\domains\gold\wp-blog-header.php(13): require_once('D:\\OpenServer\\d...')
+#13 D:\OpenServer\domains\gold\index.php(17): require('D:\\OpenServer\\d...')
+#14 {main}
+  thrown в D:\OpenServer\domains\gold\wp-includes\class-wp-widget-factory.php на строке 62
+

@@ -1,0 +1,680 @@
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 12:05:09
+* VERSION: 1.4.6
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.33                                |8.0.8
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2022-05-21 08:44:53
+WP VERSION__________: 5.9.3
+DUP VERSION_________: 1.4.6
+DB__________________: 5.7.27
+DB TABLES___________: 44
+DB ROWS_____________: 9,048
+DB FILE SIZE________: 6.48MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 8.0.8 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "D:/OpenServer/domains/gold"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://gold/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "D:/OpenServer/domains/gold/20220521_goldwood_[HASH]_20220521084453_archive.zip"
+SIZE________________: 121.78MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "D:/OpenServer/domains/gold/20220521_goldwood_[HASH]_20220521084453_archive.zip"
+SIZE________________: 121.78MBFile timestamp set to Current: 2022-11-05 12:05:24
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTRACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 12:05:24 - RUNTIME: 14.9352 sec.
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'gold'@'localhost' (using password: YES) [CODE:2|FILE:D:\OpenServer\domains\gold\dup-installer\classes\class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'gold'@'localhost' (using password: YES)[ERRNO:1045]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 12:09:10
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.33 -- Build Server: 5.7.27
+FILE SIZE:	dup-database__[HASH].sql (2.26MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[D:/OpenServer/domains/gold/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	402
+
+wp_actionscheduler_actions: (0)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (3)
+wp_actionscheduler_logs: (0)
+wp_commentmeta: (0)
+wp_comments: (48)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (341)
+wp_postmeta: (5911)
+wp_posts: (346)
+wp_term_relationships: (58)
+wp_term_taxonomy: (59)
+wp_termmeta: (168)
+wp_terms: (59)
+wp_usermeta: (551)
+wp_users: (3)
+wp_wc_admin_note_actions: (89)
+wp_wc_admin_notes: (81)
+wp_wc_category_lookup: (89)
+wp_wc_customer_lookup: (4)
+wp_wc_download_log: (0)
+wp_wc_order_coupon_lookup: (0)
+wp_wc_order_product_lookup: (73)
+wp_wc_order_stats: (38)
+wp_wc_order_tax_lookup: (0)
+wp_wc_product_meta_lookup: (21)
+wp_wc_reserved_stock: (0)
+wp_wc_tax_rate_classes: (2)
+wp_wc_webhooks: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (3)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (657)
+wp_woocommerce_order_items: (73)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (1)
+wp_woocommerce_shipping_zone_locations: (1)
+wp_woocommerce_shipping_zone_methods: (0)
+wp_woocommerce_shipping_zones: (1)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+Removed '50' cache/transient rows
+
+INSERT DATA RUNTIME: 18.3900 sec.
+STEP-2 COMPLETE @ 12:09:28 - RUNTIME: 18.4050 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 12:09:45
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "GOLDWOOD"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/var/www/u1246912/goldfinchwood.u1246912.cp.regruhosting.ru"
+path_new______________: "D:/OpenServer/domains/gold"
+siteurl_______________: "http://gold"
+url_old_______________: "http://goldfinchwood.u1246912.cp.regruhosting.ru"
+url_new_______________: "http://gold"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/u1246912/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  2:"\/var\/www\/u1246912\/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  3:"%2Fvar%2Fwww%2Fu1246912%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  4:"\var\www\u1246912\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  5:"\\var\\www\\u1246912\\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  6:"%5Cvar%5Cwww%5Cu1246912%5Cgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  7:"//goldfinchwood.u1246912.cp.regruhosting.ru" =====> "//gold"
+	SEARCH  8:"\/\/goldfinchwood.u1246912.cp.regruhosting.ru" ===> "\/\/gold"
+	SEARCH  9:"%2F%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "%2F%2Fgold"
+	SEARCH 10:"https://gold" ====================================> "http://gold"
+	SEARCH 11:"https:\/\/gold" ==================================> "http:\/\/gold"
+	SEARCH 12:"https%3A%2F%2Fgold" ==============================> "http%3A%2F%2Fgold"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:    48][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/u1246912/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  2:"\/var\/www\/u1246912\/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  3:"%2Fvar%2Fwww%2Fu1246912%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  4:"\var\www\u1246912\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  5:"\\var\\www\\u1246912\\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  6:"%5Cvar%5Cwww%5Cu1246912%5Cgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  7:"//goldfinchwood.u1246912.cp.regruhosting.ru" =====> "//gold"
+	SEARCH  8:"\/\/goldfinchwood.u1246912.cp.regruhosting.ru" ===> "\/\/gold"
+	SEARCH  9:"%2F%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "%2F%2Fgold"
+	SEARCH 10:"https://gold" ====================================> "http://gold"
+	SEARCH 11:"https:\/\/gold" ==================================> "http:\/\/gold"
+	SEARCH 12:"https%3A%2F%2Fgold" ==============================> "http%3A%2F%2Fgold"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   341][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/u1246912/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  2:"\/var\/www\/u1246912\/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  3:"%2Fvar%2Fwww%2Fu1246912%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  4:"\var\www\u1246912\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  5:"\\var\\www\\u1246912\\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  6:"%5Cvar%5Cwww%5Cu1246912%5Cgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  7:"//goldfinchwood.u1246912.cp.regruhosting.ru" =====> "//gold"
+	SEARCH  8:"\/\/goldfinchwood.u1246912.cp.regruhosting.ru" ===> "\/\/gold"
+	SEARCH  9:"%2F%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "%2F%2Fgold"
+	SEARCH 10:"https://gold" ====================================> "http://gold"
+	SEARCH 11:"https:\/\/gold" ==================================> "http:\/\/gold"
+	SEARCH 12:"https%3A%2F%2Fgold" ==============================> "http%3A%2F%2Fgold"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  5911][PG:   2][SCAN:text columns]
+	SEARCH  1:"/var/www/u1246912/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  2:"\/var\/www\/u1246912\/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  3:"%2Fvar%2Fwww%2Fu1246912%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  4:"\var\www\u1246912\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  5:"\\var\\www\\u1246912\\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  6:"%5Cvar%5Cwww%5Cu1246912%5Cgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  7:"//goldfinchwood.u1246912.cp.regruhosting.ru" =====> "//gold"
+	SEARCH  8:"\/\/goldfinchwood.u1246912.cp.regruhosting.ru" ===> "\/\/gold"
+	SEARCH  9:"%2F%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "%2F%2Fgold"
+	SEARCH 10:"https://gold" ====================================> "http://gold"
+	SEARCH 11:"https:\/\/gold" ==================================> "http:\/\/gold"
+	SEARCH 12:"https%3A%2F%2Fgold" ==============================> "http%3A%2F%2Fgold"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   346][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/u1246912/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  2:"\/var\/www\/u1246912\/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  3:"%2Fvar%2Fwww%2Fu1246912%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  4:"\var\www\u1246912\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  5:"\\var\\www\\u1246912\\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  6:"%5Cvar%5Cwww%5Cu1246912%5Cgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  7:"//goldfinchwood.u1246912.cp.regruhosting.ru" =====> "//gold"
+	SEARCH  8:"\/\/goldfinchwood.u1246912.cp.regruhosting.ru" ===> "\/\/gold"
+	SEARCH  9:"%2F%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "%2F%2Fgold"
+	SEARCH 10:"https://gold" ====================================> "http://gold"
+	SEARCH 11:"https:\/\/gold" ==================================> "http:\/\/gold"
+	SEARCH 12:"https%3A%2F%2Fgold" ==============================> "http%3A%2F%2Fgold"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    58][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/u1246912/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  2:"\/var\/www\/u1246912\/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  3:"%2Fvar%2Fwww%2Fu1246912%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  4:"\var\www\u1246912\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  5:"\\var\\www\\u1246912\\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  6:"%5Cvar%5Cwww%5Cu1246912%5Cgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  7:"//goldfinchwood.u1246912.cp.regruhosting.ru" =====> "//gold"
+	SEARCH  8:"\/\/goldfinchwood.u1246912.cp.regruhosting.ru" ===> "\/\/gold"
+	SEARCH  9:"%2F%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "%2F%2Fgold"
+	SEARCH 10:"https://gold" ====================================> "http://gold"
+	SEARCH 11:"https:\/\/gold" ==================================> "http:\/\/gold"
+	SEARCH 12:"https%3A%2F%2Fgold" ==============================> "http%3A%2F%2Fgold"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    59][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/u1246912/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  2:"\/var\/www\/u1246912\/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  3:"%2Fvar%2Fwww%2Fu1246912%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  4:"\var\www\u1246912\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  5:"\\var\\www\\u1246912\\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  6:"%5Cvar%5Cwww%5Cu1246912%5Cgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  7:"//goldfinchwood.u1246912.cp.regruhosting.ru" =====> "//gold"
+	SEARCH  8:"\/\/goldfinchwood.u1246912.cp.regruhosting.ru" ===> "\/\/gold"
+	SEARCH  9:"%2F%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "%2F%2Fgold"
+	SEARCH 10:"https://gold" ====================================> "http://gold"
+	SEARCH 11:"https:\/\/gold" ==================================> "http:\/\/gold"
+	SEARCH 12:"https%3A%2F%2Fgold" ==============================> "http%3A%2F%2Fgold"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:   168][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/u1246912/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  2:"\/var\/www\/u1246912\/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  3:"%2Fvar%2Fwww%2Fu1246912%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  4:"\var\www\u1246912\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  5:"\\var\\www\\u1246912\\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  6:"%5Cvar%5Cwww%5Cu1246912%5Cgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  7:"//goldfinchwood.u1246912.cp.regruhosting.ru" =====> "//gold"
+	SEARCH  8:"\/\/goldfinchwood.u1246912.cp.regruhosting.ru" ===> "\/\/gold"
+	SEARCH  9:"%2F%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "%2F%2Fgold"
+	SEARCH 10:"https://gold" ====================================> "http://gold"
+	SEARCH 11:"https:\/\/gold" ==================================> "http:\/\/gold"
+	SEARCH 12:"https%3A%2F%2Fgold" ==============================> "http%3A%2F%2Fgold"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    59][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/u1246912/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  2:"\/var\/www\/u1246912\/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  3:"%2Fvar%2Fwww%2Fu1246912%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  4:"\var\www\u1246912\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  5:"\\var\\www\\u1246912\\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  6:"%5Cvar%5Cwww%5Cu1246912%5Cgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  7:"//goldfinchwood.u1246912.cp.regruhosting.ru" =====> "//gold"
+	SEARCH  8:"\/\/goldfinchwood.u1246912.cp.regruhosting.ru" ===> "\/\/gold"
+	SEARCH  9:"%2F%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "%2F%2Fgold"
+	SEARCH 10:"https://gold" ====================================> "http://gold"
+	SEARCH 11:"https:\/\/gold" ==================================> "http:\/\/gold"
+	SEARCH 12:"https%3A%2F%2Fgold" ==============================> "http%3A%2F%2Fgold"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:   551][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/u1246912/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  2:"\/var\/www\/u1246912\/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  3:"%2Fvar%2Fwww%2Fu1246912%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  4:"\var\www\u1246912\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  5:"\\var\\www\\u1246912\\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  6:"%5Cvar%5Cwww%5Cu1246912%5Cgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  7:"//goldfinchwood.u1246912.cp.regruhosting.ru" =====> "//gold"
+	SEARCH  8:"\/\/goldfinchwood.u1246912.cp.regruhosting.ru" ===> "\/\/gold"
+	SEARCH  9:"%2F%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "%2F%2Fgold"
+	SEARCH 10:"https://gold" ====================================> "http://gold"
+	SEARCH 11:"https:\/\/gold" ==================================> "http:\/\/gold"
+	SEARCH 12:"https%3A%2F%2Fgold" ==============================> "http%3A%2F%2Fgold"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/u1246912/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  2:"\/var\/www\/u1246912\/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  3:"%2Fvar%2Fwww%2Fu1246912%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  4:"\var\www\u1246912\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  5:"\\var\\www\\u1246912\\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  6:"%5Cvar%5Cwww%5Cu1246912%5Cgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  7:"//goldfinchwood.u1246912.cp.regruhosting.ru" =====> "//gold"
+	SEARCH  8:"\/\/goldfinchwood.u1246912.cp.regruhosting.ru" ===> "\/\/gold"
+	SEARCH  9:"%2F%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "%2F%2Fgold"
+	SEARCH 10:"https://gold" ====================================> "http://gold"
+	SEARCH 11:"https:\/\/gold" ==================================> "http:\/\/gold"
+	SEARCH 12:"https%3A%2F%2Fgold" ==============================> "http%3A%2F%2Fgold"
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:    89][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/u1246912/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  2:"\/var\/www\/u1246912\/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  3:"%2Fvar%2Fwww%2Fu1246912%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  4:"\var\www\u1246912\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  5:"\\var\\www\\u1246912\\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  6:"%5Cvar%5Cwww%5Cu1246912%5Cgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  7:"//goldfinchwood.u1246912.cp.regruhosting.ru" =====> "//gold"
+	SEARCH  8:"\/\/goldfinchwood.u1246912.cp.regruhosting.ru" ===> "\/\/gold"
+	SEARCH  9:"%2F%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "%2F%2Fgold"
+	SEARCH 10:"https://gold" ====================================> "http://gold"
+	SEARCH 11:"https:\/\/gold" ==================================> "http:\/\/gold"
+	SEARCH 12:"https%3A%2F%2Fgold" ==============================> "http%3A%2F%2Fgold"
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:    81][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/u1246912/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  2:"\/var\/www\/u1246912\/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  3:"%2Fvar%2Fwww%2Fu1246912%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  4:"\var\www\u1246912\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  5:"\\var\\www\\u1246912\\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  6:"%5Cvar%5Cwww%5Cu1246912%5Cgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  7:"//goldfinchwood.u1246912.cp.regruhosting.ru" =====> "//gold"
+	SEARCH  8:"\/\/goldfinchwood.u1246912.cp.regruhosting.ru" ===> "\/\/gold"
+	SEARCH  9:"%2F%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "%2F%2Fgold"
+	SEARCH 10:"https://gold" ====================================> "http://gold"
+	SEARCH 11:"https:\/\/gold" ==================================> "http:\/\/gold"
+	SEARCH 12:"https%3A%2F%2Fgold" ==============================> "http%3A%2F%2Fgold"
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:    89][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/u1246912/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  2:"\/var\/www\/u1246912\/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  3:"%2Fvar%2Fwww%2Fu1246912%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  4:"\var\www\u1246912\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  5:"\\var\\www\\u1246912\\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  6:"%5Cvar%5Cwww%5Cu1246912%5Cgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  7:"//goldfinchwood.u1246912.cp.regruhosting.ru" =====> "//gold"
+	SEARCH  8:"\/\/goldfinchwood.u1246912.cp.regruhosting.ru" ===> "\/\/gold"
+	SEARCH  9:"%2F%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "%2F%2Fgold"
+	SEARCH 10:"https://gold" ====================================> "http://gold"
+	SEARCH 11:"https:\/\/gold" ==================================> "http:\/\/gold"
+	SEARCH 12:"https%3A%2F%2Fgold" ==============================> "http%3A%2F%2Fgold"
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/u1246912/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  2:"\/var\/www\/u1246912\/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  3:"%2Fvar%2Fwww%2Fu1246912%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  4:"\var\www\u1246912\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  5:"\\var\\www\\u1246912\\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  6:"%5Cvar%5Cwww%5Cu1246912%5Cgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  7:"//goldfinchwood.u1246912.cp.regruhosting.ru" =====> "//gold"
+	SEARCH  8:"\/\/goldfinchwood.u1246912.cp.regruhosting.ru" ===> "\/\/gold"
+	SEARCH  9:"%2F%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "%2F%2Fgold"
+	SEARCH 10:"https://gold" ====================================> "http://gold"
+	SEARCH 11:"https:\/\/gold" ==================================> "http:\/\/gold"
+	SEARCH 12:"https%3A%2F%2Fgold" ==============================> "http%3A%2F%2Fgold"
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:    73][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/u1246912/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  2:"\/var\/www\/u1246912\/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  3:"%2Fvar%2Fwww%2Fu1246912%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  4:"\var\www\u1246912\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  5:"\\var\\www\\u1246912\\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  6:"%5Cvar%5Cwww%5Cu1246912%5Cgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  7:"//goldfinchwood.u1246912.cp.regruhosting.ru" =====> "//gold"
+	SEARCH  8:"\/\/goldfinchwood.u1246912.cp.regruhosting.ru" ===> "\/\/gold"
+	SEARCH  9:"%2F%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "%2F%2Fgold"
+	SEARCH 10:"https://gold" ====================================> "http://gold"
+	SEARCH 11:"https:\/\/gold" ==================================> "http:\/\/gold"
+	SEARCH 12:"https%3A%2F%2Fgold" ==============================> "http%3A%2F%2Fgold"
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:    38][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/u1246912/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  2:"\/var\/www\/u1246912\/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  3:"%2Fvar%2Fwww%2Fu1246912%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  4:"\var\www\u1246912\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  5:"\\var\\www\\u1246912\\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  6:"%5Cvar%5Cwww%5Cu1246912%5Cgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  7:"//goldfinchwood.u1246912.cp.regruhosting.ru" =====> "//gold"
+	SEARCH  8:"\/\/goldfinchwood.u1246912.cp.regruhosting.ru" ===> "\/\/gold"
+	SEARCH  9:"%2F%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "%2F%2Fgold"
+	SEARCH 10:"https://gold" ====================================> "http://gold"
+	SEARCH 11:"https:\/\/gold" ==================================> "http:\/\/gold"
+	SEARCH 12:"https%3A%2F%2Fgold" ==============================> "http%3A%2F%2Fgold"
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:    21][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/u1246912/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  2:"\/var\/www\/u1246912\/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  3:"%2Fvar%2Fwww%2Fu1246912%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  4:"\var\www\u1246912\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  5:"\\var\\www\\u1246912\\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  6:"%5Cvar%5Cwww%5Cu1246912%5Cgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  7:"//goldfinchwood.u1246912.cp.regruhosting.ru" =====> "//gold"
+	SEARCH  8:"\/\/goldfinchwood.u1246912.cp.regruhosting.ru" ===> "\/\/gold"
+	SEARCH  9:"%2F%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "%2F%2Fgold"
+	SEARCH 10:"https://gold" ====================================> "http://gold"
+	SEARCH 11:"https:\/\/gold" ==================================> "http:\/\/gold"
+	SEARCH 12:"https%3A%2F%2Fgold" ==============================> "http%3A%2F%2Fgold"
+
+EVALUATE TABLE: "wp_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/u1246912/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  2:"\/var\/www\/u1246912\/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  3:"%2Fvar%2Fwww%2Fu1246912%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  4:"\var\www\u1246912\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  5:"\\var\\www\\u1246912\\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  6:"%5Cvar%5Cwww%5Cu1246912%5Cgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  7:"//goldfinchwood.u1246912.cp.regruhosting.ru" =====> "//gold"
+	SEARCH  8:"\/\/goldfinchwood.u1246912.cp.regruhosting.ru" ===> "\/\/gold"
+	SEARCH  9:"%2F%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "%2F%2Fgold"
+	SEARCH 10:"https://gold" ====================================> "http://gold"
+	SEARCH 11:"https:\/\/gold" ==================================> "http:\/\/gold"
+	SEARCH 12:"https%3A%2F%2Fgold" ==============================> "http%3A%2F%2Fgold"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/u1246912/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  2:"\/var\/www\/u1246912\/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  3:"%2Fvar%2Fwww%2Fu1246912%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  4:"\var\www\u1246912\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  5:"\\var\\www\\u1246912\\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  6:"%5Cvar%5Cwww%5Cu1246912%5Cgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  7:"//goldfinchwood.u1246912.cp.regruhosting.ru" =====> "//gold"
+	SEARCH  8:"\/\/goldfinchwood.u1246912.cp.regruhosting.ru" ===> "\/\/gold"
+	SEARCH  9:"%2F%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "%2F%2Fgold"
+	SEARCH 10:"https://gold" ====================================> "http://gold"
+	SEARCH 11:"https:\/\/gold" ==================================> "http:\/\/gold"
+	SEARCH 12:"https%3A%2F%2Fgold" ==============================> "http%3A%2F%2Fgold"
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:   657][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/u1246912/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  2:"\/var\/www\/u1246912\/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  3:"%2Fvar%2Fwww%2Fu1246912%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  4:"\var\www\u1246912\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  5:"\\var\\www\\u1246912\\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  6:"%5Cvar%5Cwww%5Cu1246912%5Cgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  7:"//goldfinchwood.u1246912.cp.regruhosting.ru" =====> "//gold"
+	SEARCH  8:"\/\/goldfinchwood.u1246912.cp.regruhosting.ru" ===> "\/\/gold"
+	SEARCH  9:"%2F%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "%2F%2Fgold"
+	SEARCH 10:"https://gold" ====================================> "http://gold"
+	SEARCH 11:"https:\/\/gold" ==================================> "http:\/\/gold"
+	SEARCH 12:"https%3A%2F%2Fgold" ==============================> "http%3A%2F%2Fgold"
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:    73][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/u1246912/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  2:"\/var\/www\/u1246912\/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  3:"%2Fvar%2Fwww%2Fu1246912%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  4:"\var\www\u1246912\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  5:"\\var\\www\\u1246912\\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  6:"%5Cvar%5Cwww%5Cu1246912%5Cgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  7:"//goldfinchwood.u1246912.cp.regruhosting.ru" =====> "//gold"
+	SEARCH  8:"\/\/goldfinchwood.u1246912.cp.regruhosting.ru" ===> "\/\/gold"
+	SEARCH  9:"%2F%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "%2F%2Fgold"
+	SEARCH 10:"https://gold" ====================================> "http://gold"
+	SEARCH 11:"https:\/\/gold" ==================================> "http:\/\/gold"
+	SEARCH 12:"https%3A%2F%2Fgold" ==============================> "http%3A%2F%2Fgold"
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/u1246912/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  2:"\/var\/www\/u1246912\/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  3:"%2Fvar%2Fwww%2Fu1246912%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  4:"\var\www\u1246912\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  5:"\\var\\www\\u1246912\\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  6:"%5Cvar%5Cwww%5Cu1246912%5Cgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  7:"//goldfinchwood.u1246912.cp.regruhosting.ru" =====> "//gold"
+	SEARCH  8:"\/\/goldfinchwood.u1246912.cp.regruhosting.ru" ===> "\/\/gold"
+	SEARCH  9:"%2F%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "%2F%2Fgold"
+	SEARCH 10:"https://gold" ====================================> "http://gold"
+	SEARCH 11:"https:\/\/gold" ==================================> "http:\/\/gold"
+	SEARCH 12:"https%3A%2F%2Fgold" ==============================> "http%3A%2F%2Fgold"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/u1246912/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  2:"\/var\/www\/u1246912\/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  3:"%2Fvar%2Fwww%2Fu1246912%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  4:"\var\www\u1246912\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  5:"\\var\\www\\u1246912\\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  6:"%5Cvar%5Cwww%5Cu1246912%5Cgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  7:"//goldfinchwood.u1246912.cp.regruhosting.ru" =====> "//gold"
+	SEARCH  8:"\/\/goldfinchwood.u1246912.cp.regruhosting.ru" ===> "\/\/gold"
+	SEARCH  9:"%2F%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "%2F%2Fgold"
+	SEARCH 10:"https://gold" ====================================> "http://gold"
+	SEARCH 11:"https:\/\/gold" ==================================> "http:\/\/gold"
+	SEARCH 12:"https%3A%2F%2Fgold" ==============================> "http%3A%2F%2Fgold"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/u1246912/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  2:"\/var\/www\/u1246912\/goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  3:"%2Fvar%2Fwww%2Fu1246912%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  4:"\var\www\u1246912\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:/OpenServer/domains/gold"
+	SEARCH  5:"\\var\\www\\u1246912\\goldfinchwood.u1246912.cp.regruhosting.ru" => "D:\/OpenServer\/domains\/gold"
+	SEARCH  6:"%5Cvar%5Cwww%5Cu1246912%5Cgoldfinchwood.u1246912.cp.regruhosting.ru" => "D%3A%2FOpenServer%2Fdomains%2Fgold"
+	SEARCH  7:"//goldfinchwood.u1246912.cp.regruhosting.ru" =====> "//gold"
+	SEARCH  8:"\/\/goldfinchwood.u1246912.cp.regruhosting.ru" ===> "\/\/gold"
+	SEARCH  9:"%2F%2Fgoldfinchwood.u1246912.cp.regruhosting.ru" => "%2F%2Fgold"
+	SEARCH 10:"https://gold" ====================================> "http://gold"
+	SEARCH 11:"https:\/\/gold" ==================================> "http:\/\/gold"
+	SEARCH 12:"https%3A%2F%2Fgold" ==============================> "http%3A%2F%2Fgold"
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:44 	|	 Rows:8680 	|	 Cells:44428 
+UPDATED:	Tables:5 	|	 Rows:363 	|	 Cells:366 
+ERRORS:		0 
+RUNTIME:	1.250200 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Auto Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 12:09:46 - RUNTIME: 1.5071 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

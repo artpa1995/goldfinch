@@ -1,0 +1,21 @@
+@media screen and (max-width: 900px){
+ .td{
+     padding: 10px;
+     font-size: 10px;
+ }
+ .td2{
+       
+    font-size: 7px;
+}
+.hsize{
+    font-size: 20px;
+}
+ 
+}
+@media screen and (max-width: 450px){
+    .td{
+        padding: 7px;
+        font-size: 10px;
+    }
+    
+   }
